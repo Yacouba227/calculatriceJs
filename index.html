@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="calculatrice">
+            <p>Calculator</p>
+            <p style="display: flex;"><span style=" font-size: 10px; padding: 5px;" id="theme-text">Thème</span>
+                <span id="mpo">
+                <input type="checkbox" id="theme1">
+                <input type="checkbox" id="theme2" class="mlo">
+                <input type="checkbox" id="theme3" class="mlo">
+            </span>
+        </p>
+        </div>
+        <div class="libele">
+            <input type="text" id="display" disabled>
+        </div>
+        <div class="boutton">
+            <div class="bouton1">
+                <button id="meme-couleur" onclick="appendValue('7')">7</button>
+                <button id="meme-couleur" onclick="appendValue('8')">8</button>
+                <button id="meme-couleur" onclick="appendValue('9')">9</button>
+                <button id="meme-coul" onclick="clearDisplay()">DEL</button>
+            </div>
+            <div class="bouton1">
+                <button id="meme-couleur" onclick="appendValue('4')">4</button>
+                <button id="meme-couleur" onclick="appendValue('5')">5</button>
+                <button id="meme-couleur" onclick="appendValue('6')">6</button>
+                <button id="meme-couleur" onclick="appendValue('+')">+</button>
+            </div>
+            <div class="bouton1">
+                <button id="meme-couleur" onclick="appendValue('1')">1</button>
+                <button id="meme-couleur" onclick="appendValue('2')">2</button>
+                <button id="meme-couleur" onclick="appendValue('3')">3</button>
+                <button id="meme-couleur" onclick="appendValue('-')">-</button>
+            </div>
+            <div class="bouton1">
+                <button id="meme-couleur" onclick="appendValue('.')">.</button>
+                <button id="meme-couleur" onclick="appendValue('0')">0</button>
+                <button id="meme-couleur" onclick="appendValue('/')">/</button>
+                <button id="meme-couleur" onclick="appendValue('*')">*</button>
+            </div>
+            <div class="bouton2">
+                <button id="meme-coul" onclick="deleteLastCharacter()">RESET</button>
+                <button id="unique-couleur" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #43506f;
+    color: white;
+}
+.container{
+    background-color: #43506f;
+    width: 28%;
+    margin: 6rem auto;
+}
+.boutton{
+    background-color: #1b233e; 
+    border-radius: 12px; 
+}
+#meme-couleur{
+    background-color: #e9e9ea
+}
+#meme-coul{
+    color: #FFF;
+    background-color: #3d828c
+}
+#unique-couleur{
+    background-color: #ad500a
+}
+.calculatrice{
+    display: flex;
+    justify-content: space-between;
+}
+.bouton1{
+    display: flex;
+    justify-content: space-around;
+}
+.bouton2{
+    display: flex;
+    justify-content: space-around;
+}
+.bouton1 button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #191F36;
+    width: calc(100%/5);
+    height: 40px;
+    box-shadow: 0px 2px #6b6d71;
+    border: none;
+    border-radius: 12px;
+    margin: 6px;
+}
+.bouton2 button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    width: calc(100%/2.2);
+    height: 40px;
+    border: none;
+    box-shadow: 0px 2px #3A4664;
+    margin: 6px;
+    border-radius: 12px; 
+}
+.libele{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1b233e; 
+    height: 60px;
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom:8px;
+}
+.libele input{
+    width: 100%;
+    background-color: #1b233e;
+    color: #FFF;
+    font-size: 20px;
+    height: 30px;
+    margin: auto;
+    border: none;
+    text-align: end;
+    padding: 8px;
+}
+p span{
+    background-color: #1b233e;
+    border-radius: 12px;
+}
+p span input{
+    background-color: #FFF;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+}
+ /* p span input:checked {
+    background-color: #ea6f1d;
+} */
+#theme-text{
+    background-color: #43506f;
+}
+#theme1{
+    background-color: #cf4c41;
+}
+.mlo{
+    background-color: #191F36;
+}
+
+@media screen and (max-width:425px) {
+    .container{
+        width: 85%;
+        margin: 4rem auto;
+    }
+}
